@@ -1,0 +1,217 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4; /* Softer background */
+    color: #333;
+    line-height: 1.6;
+    padding-bottom: 20px;
+  }
+  
+  /* Header */
+  .head_bar {
+    padding: 16px;
+    background-color: #0056b3; /* Deep blue for professionalism */
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 4px solid #003f7d;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main Container */
+  main {
+    max-width: 800px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle depth */
+  }
+  
+  /* Input Section */
+  .input_section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fefefe; /* Bright section contrast */
+  }
+  
+  .input_section > h2 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  
+  .input_section .input {
+    margin-bottom: 15px;
+  }
+  
+  .input_section .input > label {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #0056b3;
+    display: block;
+  }
+  
+  .input_section .input > input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .input_section > form > .input_inline {
+    display: flex;
+    align-items: center;
+    margin: 12px 0;
+  }
+  
+  .input_section .input_inline > label {
+    font-weight: bold;
+    margin-right: 10px;
+    color: #0056b3;
+  }
+  
+  .input_section > form > button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+  }
+  
+  .input_section > form > button:hover {
+    background-color: #003f7d;
+  }
+  
+  /* Search Section */
+  .search_section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fefefe;
+  }
+  
+  .search_section > h2 {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .search_section > form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .search_section > form > label {
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
+  .search_section > form > input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search_section > form > button {
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .search_section > form > button:hover {
+    background-color: #003f7d;
+  }
+  
+  /* Bookshelf Section */
+  .book_shelf {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fefefe;
+  }
+  
+  .book_shelf > h2 {
+    color: #0056b3;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .book_list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .book_item {
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book_item > h3 {
+    color: #0056b3;
+    margin-bottom: 8px;
+  }
+  
+  .book_item > p {
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  .action {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .action > button {
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: white;
+    transition: background-color 0.3s;
+  }
+  
+  .action > .green {
+    background-color: #28a745;
+  }
+  
+  .action > .green:hover {
+    background-color: #218838;
+  }
+  
+  .action > .red {
+    background-color: #dc3545;
+  }
+  
+  .action > .red:hover {
+    background-color: #c82333;
+  }
+  
